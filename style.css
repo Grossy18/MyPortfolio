@@ -165,6 +165,13 @@ section {
   display: flex;
 }
 
+
+.about-text {
+  text-align: justify;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
 /* PROFILE SECTION */
 
 #profile {
