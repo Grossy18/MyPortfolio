@@ -288,9 +288,8 @@ section {
   display: flex;
 }
 
-.about-pic {
-  border-radius: 2rem;
-}
+
+
 
 .arrow {
   position: absolute;
