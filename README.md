@@ -1,3 +1,1 @@
-"# MyPortfolio" 
-"# MyPortfolio" 
-"# MyPortfolio" 
+"Showcasing my portfolio as a Full Stack Java Developer, featuring projects built with Java, Spring Boot, Hibernate, React, and SQL. Demonstrating expertise in backend and frontend development, database management, and scalable web applications."
