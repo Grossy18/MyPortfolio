@@ -318,6 +318,18 @@ section {
   margin: auto 0;
 }
 
+
+
+/* toplogo prperties SECTION */
+
+/* toplogo properties SECTION */
+.toplogo {
+  border-radius: 50%; /* Optional: Makes the image circular */
+  margin-left: -75px; /* Adjust the value as needed */
+}
+
+
+
 /* EXPERIENCE SECTION */
 
 #experience {
