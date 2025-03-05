@@ -453,3 +453,32 @@ footer {
 footer p {
   text-align: center;
 }
+
+
+/* Adding animation to text  */
+
+@keyframes fadeInUp {
+  0% {
+      opacity: 0;
+      transform: translateY(30px);
+  }
+  100% {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
+.section__text p, 
+.section__text h1, 
+.section__text .btn-container, 
+.section__text #socials-container {
+  opacity: 0;
+  animation: fadeInUp 1s ease-out forwards;
+}
+
+/* Delays to make elements appear one after another */
+.section__text p:nth-child(1) { animation-delay: 0.2s; } 
+.section__text h1 { animation-delay: 0.4s; }
+.section__text p:nth-child(3) { animation-delay: 0.6s; }
+.section__text .btn-container { animation-delay: 0.8s; }
+.section__text #socials-container { animation-delay: 1s; }
